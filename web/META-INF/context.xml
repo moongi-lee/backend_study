@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/">
+    <Resource
+        name="jdbc/mysql"
+        type="javax.sql.DataSource"
+        auth="Container"
+        driverClassName="com.mysql.cj.jdbc.Driver"
+        url="jdbc:mysql://localhost:3306/bbmc"
+        username="moongi"
+        password="dlansrl12!"
+        maxActive="-1"
+    />
+</Context>
